@@ -1,0 +1,6 @@
+2026-07-10 22:10:57 | INFO     | src.explain | Using SHAP TreeExplainer for RandomForestClassifier
+2026-07-10 22:10:57 | INFO     | src.data_loader | Loading raw dataset from /Users/khushimehta/Desktop/customer Churn XAI/data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-07-10 22:10:57 | INFO     | src.data_loader | Loaded dataset with shape (7043, 21)
+2026-07-10 22:10:57 | INFO     | src.preprocessing | Imputing 11 missing TotalCharges values (new customers, tenure == 0) with 0.0
+2026-07-10 22:10:58 | INFO     | src.preprocessing | Dropped 22 duplicate rows
+2026-07-10 22:10:58 | INFO     | src.predict_pipeline | Prediction complete: probability=0.314, label=No, risk=Low
